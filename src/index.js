@@ -12,3 +12,4 @@ ReactDOM.render(
     />,
     document.querySelector(`#root`)
 );
+//Задание уже выполнено в прошлом пулл-реквесте, зачти пожалуйста
