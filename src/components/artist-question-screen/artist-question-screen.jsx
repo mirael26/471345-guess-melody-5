@@ -14,7 +14,7 @@ const ArtistQuestionScreen = (props) => {
       <header className="game__header">
         <a className="game__back" href="#">
           <span className="visually-hidden">Сыграть ещё раз</span>
-          <img className="game__logo" src="img/melody-logo-ginger.png" alt="Угадай мелодию" />
+          <img className="game__logo" src="/img/melody-logo-ginger.png" alt="Угадай мелодию" />
         </a>
 
         <svg xmlns="http://www.w3.org/2000/svg" className="timer" viewBox="0 0 780 780">
