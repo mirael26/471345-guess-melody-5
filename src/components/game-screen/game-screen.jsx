@@ -52,9 +52,9 @@ const GameScreen = (props) => {
           <Mistakes count={mistakes} />
         </GenreQuestionScreenWrapped>
       );
+    default:
+      return <Redirect to="/" />;
   }
-
-  return <Redirect to="/" />;
 };
 
 GameScreen.propTypes = {
